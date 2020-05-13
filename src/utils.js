@@ -19,3 +19,10 @@ export const getLocationInfo = (setMyPosition, setMyPlace) => {
     });
   };
   
+  export const defaultMapSettings = {
+    key: "",
+    defaultCenter: { lat: 59.95, lng: 30.33 },
+    defaultZoom: 13,
+    hoverDistance: 15
+  };
+  
